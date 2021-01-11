@@ -6,6 +6,12 @@ body{
     background-color: aliceblue;
     font-family: 'Poppins', sans-serif;
 }
+
+main{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+}
 section{
     background-color: white;
     margin: 1em;
@@ -36,15 +42,16 @@ section{
     width: 200px;
     margin-right: 20px;
 }
-.single-player, .blog{
+.single-player{
     display: flex;
     align-items: center;
+    width: 250px;
     
 }
-main{
-    width: 900px;
-    max-width: 90%;
-    margin: 0 auto;
+.blog{
+    display: flex;
+    align-items: center;
+    width: 350px;
 }
 .filled{
     color: goldenrod;
